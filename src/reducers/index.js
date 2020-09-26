@@ -1,8 +1,10 @@
 import hobbyReducer from "./hobby";
-import { combineReducer } from "redux";
+import { combineReducers } from "redux";
 import userReducer from "./user";
 
-export default rootReducer = combineReducer({
+const rootReducer = combineReducers({
   hobby: hobbyReducer,
   user: userReducer,
 });
+
+export default rootReducer;

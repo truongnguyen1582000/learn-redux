@@ -1,16 +1,23 @@
-export default hobbyReducer = (state, action) => {
+const initState = {
+    list: [],
+    activeId: null,
+};
+
+const hobbyReducer = (state = initState, action) => {
     switch (action.type) {
-        case 'ADD_HOBBY':
+        case "ADD_HOBBY":
             {
-                break;
+                return state;
             }
 
-        case 'SET_ACTIVE_HOBBY':
+        case "SET_ACTIVE_HOBBY":
             {
-                break;
+                return state;
             }
 
         default:
             return state;
     }
-}
+};
+
+export default hobbyReducer;

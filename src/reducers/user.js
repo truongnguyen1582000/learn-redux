@@ -1,5 +1,5 @@
-import { useReducer } from "react";
-
-export default useReducer = (state, action) => {
+const useReducer = (state = {}, action) => {
     return state;
 };
+
+export default useReducer;
